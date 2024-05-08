@@ -17,7 +17,7 @@ export default function Home({ items }) {
 export async function getStaticProps() {
   const env = new Env();
 
-  console.log("ENV:", env.get(FUNC_URL));
+  console.log("ENV:", env.get("FUNC_URL"));
 
   const res = await fetch("https://witschis-funcs.azurewebsites.net/api/items");
 
