@@ -32,6 +32,6 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: "webapptestenv210"
+          app-name: "auftrag-campus-210"
           slot-name: "Production"
           package: .
