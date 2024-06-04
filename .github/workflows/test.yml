@@ -4,7 +4,7 @@ name: Demo Workflow
 on:
   push:
     branches:
-      - demo
+      - auftrag
   workflow_dispatch:
 
 permissions:
